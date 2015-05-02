@@ -23,6 +23,7 @@ public class VibCarButton : MonoBehaviour {
 
     void Start()
     {
+        
         P1 = P01;
         P2 = P02;
         Car02.SetActive(false);

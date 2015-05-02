@@ -9,6 +9,25 @@ public class MonKey : MonoBehaviour {
     public static int Gold;
     void Start()
     {
+        if (Screen.width == 320)
+        {
+            score.fontSize = 23;
+        }
+
+        if (Screen.width == 480)
+        {
+            score.fontSize = 30;
+        }
+
+        if (Screen.width == 600)
+        {
+            score.fontSize = 35;
+        }
+
+        if (Screen.width == 800)
+        {
+            score.fontSize = 43;
+        }
         Gold = 0;
     }
    

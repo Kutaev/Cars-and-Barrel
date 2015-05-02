@@ -11,15 +11,21 @@ public class NewCAr : MonoBehaviour {
         if (PlayerPrefs.GetInt("01Car") == 1)
         {
             Avto01.SetActive(true);
+            ButtonPrava.two = false;
+            ButtonPrava.three = false;
         }
         if (PlayerPrefs.GetInt("01Car") == 2)
         {
             Avto02.SetActive(true);
+            ButtonPrava.two = true;
+            ButtonPrava.three = false;
         }
 
         if (PlayerPrefs.GetInt("01Car") == 3)
         {
             Avto03.SetActive(true);
+            ButtonPrava.two = false;
+            ButtonPrava.three = true;
         }
 
 
